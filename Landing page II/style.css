@@ -1,0 +1,85 @@
+body{
+  background-color: #D6655F;
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+}
+
+
+
+.container{
+  width: 800px;
+  height: 800px;
+  margin: 10px auto 10px auto;
+}
+
+.brand{
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* use space between to keep brand on the left and links on the right */
+  justify-content: space-between;
+
+}
+/* create .header nav a to properly align nav links */
+.header nav a{
+ padding: 10px;
+ text-decoration: none;
+ text-align: center;
+ color: #fff;
+}
+
+.text{
+  margin-top: 120px;
+  line-height: 2.0;
+}
+
+.image{
+  position: absolute;
+  right: 230px;
+  bottom: 100px;
+  border-radius: 13px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Fredoka One', cursive;
+  color: #D6655F;
+  font-size: 20px;
+  background: #A64AC9;
+  padding: 10px 20px 10px 20px;
+  border: solid #D6655F 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fff;
+  text-decoration: none;
+  color: #D6655F;
+  border: solid #D6655F 2px;
+}
+
+.btn-2 {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+  font-size: 20px;
+  background: #A64AC9;
+  padding: 10px 20px 10px 20px;
+  border: solid #A64AC9 2px;
+  text-decoration: none;
+}
+
+.btn-2:hover {
+  background: #fff;
+  text-decoration: none;
+  color: #D6655F;
+  border: solid #D6655F 2px;
+}
